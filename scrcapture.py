@@ -5,6 +5,7 @@ import time
 
 def screen_record():
     last_time = time.time()
+
     while(True):
         # 800x600 windowed mode, at the top left position of your main screen.
         # 40 px accounts for title bar.
